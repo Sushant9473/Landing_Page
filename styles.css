@@ -1,0 +1,161 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.second {
+  background-color: #1f2937;
+  display: flex;
+  padding: 80px 100px;
+}
+
+.first {
+  width: 50%;
+}
+
+.seconds {
+  background-color: grey;
+  width: 50%;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+.secondary,
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.awesome {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+}
+
+main {
+  background-color: white;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  height: 500px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote div{
+    width:70%;
+}
+
+figcaption {
+    display: block;
+  text-align: end;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 40px;
+}
+
+.empty {
+  /* padding: 40px 100px; */
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.x div {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 5%;
+}
+
+.x p{
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin:50px auto;
+  background-color: #3882f6;
+  padding:40px;
+  color: white;
+  border-radius: 2%;
+}
+
+h4{
+    color: white;
+    font-size: 25px;
+}
+
+.la{
+    border:2px solid white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
